@@ -14,6 +14,7 @@ Checkouts can be performed in svn by typing "svn co $REPO $LOCAL"  where $REPO i
 You create the .svn directory by performing a checkout.
 
 5) Adding to the chaos - How do you add files to the repository?
+You add files to the repository with 'svn add' followed by the files, or 'svn add *' to add all files in the directory to the repository at once. 
 
 6) It’s like a tree - How are branches handled in svn?
 
