@@ -38,6 +38,9 @@ With 'svn merge' or 'svn merge --reintegrate'. It would be wise to run an 'svn u
 Svn was created to more easily manage large projects involving a centralized repository by making it as simple to use as possible.
 
 13) A day in the life of svn - What is a typical svn workflow?
+Start with an 'svn update'
+Work on local files.
+Commit to central repository with 'svn commit'
 
 14) What were they thinking?! - What was the design criteria for svn?
 
