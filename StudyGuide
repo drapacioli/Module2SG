@@ -29,6 +29,7 @@ Exactly like the central repository, with the exception of any changes you have 
 'svn status' with an optional '$FILENAME' afterward for a specific file
 
 10) Life of a branch - How long are branches in svn supposed to exist?
+Until you reintegrate them. It's common practice to reintegrate branches during a final merge, however if you are still working on a specific problem that needs to remain separate from the trunk, there's no arbitrary limit.
 
 11) Taping it together - How do you merge branches?
 
