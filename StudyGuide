@@ -20,6 +20,7 @@ You add files to the repository with 'svn add' followed by the files, or 'svn ad
 Brances are not as well-defined in svn as they are in git. In order to create a branch, you must first copy the existing trunk copy to a new project folder. The name of the folder is typically the name of the branch.
 
 7) or maybe a forest - How many branches can you have at any given time?
+That depends: How big is the project and how much storage space do you have? There is no arbitrary limit, only what you yourself are limited to in terms of resources and patience.
 
 8) Working copy - What does your local copy of a repository look like with svn?
 
