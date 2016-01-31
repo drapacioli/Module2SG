@@ -46,6 +46,7 @@ Commit to central repository with 'svn commit'
 Svn was intended to be as simple to use as possible. This allows for a great flexibility in project management by allowing users to essentially branch off files locally rather than through the repository, and allowing for a vast amount of tools that are suited for a generalized workflow rather than one specific method.
 
 15) Time machine - How do we view the past of a project with svn?
+You can check out past revisions by performing a checkout and specifying the revision and optionally a file in particular to look at. The command is 'svn co -r$X $OPTFILE' where $X is the revision number and $OPTFILE is the optional filename(s) to checkout.
 
 16) Great Scott! - If there was a mistake made in the past of a project, how should we go about
 correcting that mistake in svn?
