@@ -5,7 +5,7 @@ Study Guide
 Git is a distributed VCS whereas svn is centralized. This means that svn works under a single repository that team members would checkout files from, rather than from several potential locations. Additionally, several things are different in svn, such as it has less complex branch and merge tools and it has no complex staging requirements - instead relying on add, remove, and commit commands.
 
 2) Commiting to svn - How are commits handled in svn?
-To commit files in svn, you simply type 'svn commit' with an optional '-m "<MEMO>"' line. Without the memo line, you will be taken to a screen to enter your memo, and with it svn's commit is a single line operation
+To commit files in svn, you simply type 'svn commit' with an optional '-m "<MEMO>"' line. Without the memo line, you will be taken to a screen to enter your memo, and with it svn's commit is a single line operation. No staging of files is necessary as updates to existing files are automatically tracked and marked for update.
 
 3) Checking out svn - How are check outs performed in svn?
 
