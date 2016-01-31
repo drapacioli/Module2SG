@@ -35,6 +35,7 @@ Until you reintegrate them. It's common practice to reintegrate branches during 
 With 'svn merge' or 'svn merge --reintegrate'. It would be wise to run an 'svn update' before the merge to ensure everything is up to date. After the merge, you must then commit the merge to the trunk by running a final 'svn commit'.
 
 12) We see a need! - Why was svn created?
+Svn was created to more easily manage large projects involving a centralized repository by making it as simple to use as possible.
 
 13) A day in the life of svn - What is a typical svn workflow?
 
