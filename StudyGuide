@@ -50,6 +50,7 @@ You can check out past revisions by performing a checkout and specifying the rev
 
 16) Great Scott! - If there was a mistake made in the past of a project, how should we go about
 correcting that mistake in svn?
+Just make a new commit fixing the past mistake rather than trying to erase it from existence by messing with the history of the project (This can cause a large amount of problems, particularly in group projects where things can suddenly break inexplicably).
 
 17) The initial upload - If you have an existing project and want to start tracking it with svn, how
 do you copy your existing files to the repository the first time? Does this
