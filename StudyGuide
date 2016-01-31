@@ -43,6 +43,7 @@ Work on local files.
 Commit to central repository with 'svn commit'
 
 14) What were they thinking?! - What was the design criteria for svn?
+Svn was intended to be as simple to use as possible. This allows for a great flexibility in project management by allowing users to essentially branch off files locally rather than through the repository, and allowing for a vast amount of tools that are suited for a generalized workflow rather than one specific method.
 
 15) Time machine - How do we view the past of a project with svn?
 
