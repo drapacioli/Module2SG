@@ -32,6 +32,7 @@ Exactly like the central repository, with the exception of any changes you have 
 Until you reintegrate them. It's common practice to reintegrate branches during a final merge, however if you are still working on a specific problem that needs to remain separate from the trunk, there's no arbitrary limit.
 
 11) Taping it together - How do you merge branches?
+With 'svn merge' or 'svn merge --reintegrate'. It would be wise to run an 'svn update' before the merge to ensure everything is up to date. After the merge, you must then commit the merge to the trunk by running a final 'svn commit'.
 
 12) We see a need! - Why was svn created?
 
