@@ -10,8 +10,8 @@ To commit files in svn, you simply type 'svn commit' with an optional '-m "<MEMO
 3) Checking out svn - How are check outs performed in svn?
 Checkouts can be performed in svn by typing "svn co $REPO $LOCAL"  where $REPO is the location of the centralized repository and $LOCAL is the location of where you wish your local working copy to be kept in your filesystem (Or potentially on another server, etc.). You can omit the $LOCAL to have the working copy placed automatically in a folder in the current directory, or you can specify specific files to check out by naming them. You can also check out specific revisions with the -rX flag, where X is the revision number you wish to checkout.
 
-4) Bring me my .svn! - How do you create the local working environment with svn (the .svn direc-
-tory)?
+4) Bring me my .svn! - How do you create the local working environment with svn (the .svn direc-tory)?
+You create the .svn directory by performing a checkout.
 
 5) Adding to the chaos - How do you add files to the repository?
 
