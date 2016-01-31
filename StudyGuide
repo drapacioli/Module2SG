@@ -23,6 +23,7 @@ Brances are not as well-defined in svn as they are in git. In order to create a 
 That depends: How big is the project and how much storage space do you have? There is no arbitrary limit, only what you yourself are limited to in terms of resources and patience.
 
 8) Working copy - What does your local copy of a repository look like with svn?
+Exactly like the central repository, with the exception of any changes you have made since the last update/commit.
 
 9) Status - How do you check the status of the files you are presently working on?
 
