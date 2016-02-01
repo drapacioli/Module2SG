@@ -53,8 +53,7 @@ correcting that mistake in svn?
 Just make a new commit fixing the past mistake rather than trying to erase it from existence by messing with the history of the project (This can cause a large amount of problems, particularly in group projects where things can suddenly break inexplicably).
 
 17) The initial upload - If you have an existing project and want to start tracking it with svn, how
-do you copy your existing files to the repository the first time? Does this
-create the .svn directory in your local folder?
+do you copy your existing files to the repository the first time? Does this create the .svn directory in your local folder?
 If you have an existing project and need to upload it to a remote repository, create the remote repository and perform a svn checkout with '--depth empty' as an option. This will set up the .svn directory without deleting your existing files.
 
 
