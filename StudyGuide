@@ -55,6 +55,8 @@ Just make a new commit fixing the past mistake rather than trying to erase it fr
 17) The initial upload - If you have an existing project and want to start tracking it with svn, how
 do you copy your existing files to the repository the first time? Does this
 create the .svn directory in your local folder?
+If you have an existing project and need to upload it to a remote repository, create the remote repository and perform a svn checkout with '--depth empty' as an option. This will set up the .svn directory without deleting your existing files.
+
 
 18) Local SVN - Can the client/server setup required with svn exist on the same computer?
 Absolutely, just specify a local file location rather than a remote URL when setting up the svnadmin side.
